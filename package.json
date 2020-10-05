@@ -1,0 +1,31 @@
+{
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "author": "ELCO AG",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Removes files from dist folder after uploaded to server",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "webpack-remove-files-after-upload",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcoag/npm.git",
+    "directory": "webpack-remove-files-after-upload"
+  },
+  "bugs": {
+    "url": "https://github.com/elcoag/npm/webpack-remove-files-after-upload/issues"
+  },
+  "homepage": "https://github.com/elcoag/npm/webpack-remove-files-after-upload#readme",
+  "version": "1.0.0",
+  "keywords": [
+    "webpack",
+    "scp-webpack-plugin"
+  ],
+  "dependencies": {
+    "scp-webpack-plugin": "^1.0.0"
+  },
+  "devDependencies": {}
+}
